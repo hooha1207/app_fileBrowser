@@ -1,0 +1,85 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+*.bak
+*.tmp
+*.temp
+
+# IDE related
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+*.vspackage
+.history/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+
+.metadata
+
+# Platform specific
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/local.properties
+/android/**/generated/
+/android/app/src/main/res/raw/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/config/
+*.keystore
+*.jks
+
+
+# Platform-specific generated files
+/linux/flutter/*
+!/linux/flutter/CMakeLists.txt
+/windows/flutter/*
+!/windows/flutter/CMakeLists.txt
+/macos/Flutter/GeneratedPluginRegistrant.swift
+/ios/Flutter/GeneratedPluginRegistrant.*
+
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.out
+*.app
+
+# Secrets
+.env*
+*.secret
+
+# Symbolication / Obfuscation
+app.*.symbols
+app.*.map.json
+
+.metadata

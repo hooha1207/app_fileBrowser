@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="folderGradient" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4FacFE" />
+      <stop offset="100%" stop-color="#00f2fe" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Folder Shape with Padding (Scaled 75% and Centered) -->
+  <g transform="translate(64, 64) scale(0.75)">
+    <path d="M64 128C64 110.33 78.33 96 96 96H208L256 144H416C433.67 144 448 158.33 448 176V384C448 401.67 433.67 416 416 416H96C78.33 416 64 401.67 64 384V128Z" fill="url(#folderGradient)" />
+    
+    <!-- Subtle Folder Tab Overlay for Depth -->
+    <path d="M64 128C64 110.33 78.33 96 96 96H208L240 128H64V128Z" fill="rgba(255,255,255,0.15)" />
+  </g>
+</svg>
