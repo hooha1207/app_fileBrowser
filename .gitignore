@@ -83,3 +83,4 @@ app.*.symbols
 app.*.map.json
 
 .metadata
+/android/key.properties
